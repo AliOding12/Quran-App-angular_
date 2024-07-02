@@ -1,0 +1,4 @@
+.env
+bashscript.sh
+node_modules/
+<!-- Set up Express server with package.json -->
