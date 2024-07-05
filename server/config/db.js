@@ -6,4 +6,4 @@ password:'root',
 database:'register',
 waitForConnections: true
 })
-module.exports = mysqlpool;
+module.exports = mysqlpool;// Add database configuration for Express
