@@ -25,4 +25,4 @@ mysqlpool.query('SELECT 1').then(()=>{
 }
 ).catch((error)=>{
     console.log(error);
-})
+})// Set up Express server
