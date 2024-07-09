@@ -14,3 +14,4 @@ describe('AuthService', () => {
     expect(service).toBeTruthy();
   });
 });
+// Add tests for authentication service
