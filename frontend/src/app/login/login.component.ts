@@ -33,3 +33,4 @@ constructor(private _auth: AuthService,private router:Router) { }
         })
          }
 }
+// Add login component and template
