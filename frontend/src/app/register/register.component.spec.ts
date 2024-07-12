@@ -21,3 +21,4 @@ describe('RegisterComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+// Add register component styles and tests
