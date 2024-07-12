@@ -46,3 +46,4 @@ export class RegisterComponent {
       })
   }
 }
+// Add register component and template
