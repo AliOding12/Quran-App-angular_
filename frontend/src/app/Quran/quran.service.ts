@@ -23,3 +23,4 @@ export class QuranService {
   }
 
 }
+// Add Quran service for API integration
