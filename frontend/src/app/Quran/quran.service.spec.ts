@@ -14,3 +14,4 @@ describe('QuranService', () => {
     expect(service).toBeTruthy();
   });
 });
+// Add tests for Quran service
