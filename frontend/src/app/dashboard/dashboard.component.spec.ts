@@ -21,3 +21,4 @@ describe('DashboardComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+// Add dashboard component styles and tests
