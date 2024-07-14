@@ -58,3 +58,4 @@ export class DashboardComponent {
 
 
 
+// Add dashboard component and template
