@@ -105,3 +105,4 @@ const getquranaudio = async(req,res)=>{
 
 
 module.exports={createUser,checkUser,getqurantext,getquranaudio};// Add registration controller for backend
+// Enhance registration controller with validation
