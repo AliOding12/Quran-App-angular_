@@ -7,3 +7,4 @@ database:'register',
 waitForConnections: true
 })
 module.exports = mysqlpool;// Add database configuration for Express
+// Update database configuration with connection pooling
