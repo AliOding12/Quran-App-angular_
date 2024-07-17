@@ -47,3 +47,4 @@ export class RegisterComponent {
   }
 }
 // Add register component and template
+// Add form validation to register component
