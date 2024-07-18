@@ -59,3 +59,4 @@ export class DashboardComponent {
 
 
 // Add dashboard component and template
+// Add data display to dashboard
