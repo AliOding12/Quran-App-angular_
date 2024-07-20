@@ -11,3 +11,4 @@ export const routes: Routes = [
     {path:'dashboard',component:DashboardComponent}
 ];
 provideRouter(routes);// Add routing configuration for frontend
+// Update routes for dashboard integration
