@@ -28,3 +28,4 @@ export class AppComponent {
   }
 }
 // Add main app component and template
+// Update app component for routing
