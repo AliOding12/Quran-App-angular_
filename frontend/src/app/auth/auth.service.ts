@@ -22,3 +22,4 @@ export class AuthService {
 }
 // Add authentication service
 // Add token handling to auth service
+// Improve error handling in auth service
