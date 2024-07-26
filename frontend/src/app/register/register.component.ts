@@ -48,3 +48,4 @@ export class RegisterComponent {
 }
 // Add register component and template
 // Add form validation to register component
+// Add loading state to register component
