@@ -35,3 +35,4 @@ constructor(private _auth: AuthService,private router:Router) { }
 }
 // Add login component and template
 // Fix login form validation
+// Add loading state to login component
