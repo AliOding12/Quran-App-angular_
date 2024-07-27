@@ -27,3 +27,4 @@ mysqlpool.query('SELECT 1').then(()=>{
     console.log(error);
 })// Set up Express server
 // Add middleware for request logging
+// Add CORS support to Express server
