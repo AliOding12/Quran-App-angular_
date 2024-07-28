@@ -15,3 +15,4 @@ describe('AuthService', () => {
   });
 });
 // Add tests for authentication service
+// Update auth service tests
