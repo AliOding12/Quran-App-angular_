@@ -15,3 +15,4 @@ describe('QuranService', () => {
   });
 });
 // Add tests for Quran service
+// Update Quran service tests
