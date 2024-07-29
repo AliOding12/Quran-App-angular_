@@ -22,3 +22,4 @@ describe('LoginComponent', () => {
   });
 });
 // Add login component styles and tests
+// Update login component tests
