@@ -22,3 +22,4 @@ describe('RegisterComponent', () => {
   });
 });
 // Add register component styles and tests
+// Update register component tests
