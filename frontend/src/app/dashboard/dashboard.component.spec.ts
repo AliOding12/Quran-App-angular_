@@ -22,3 +22,4 @@ describe('DashboardComponent', () => {
   });
 });
 // Add dashboard component styles and tests
+// Update dashboard component tests
