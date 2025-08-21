@@ -1,0 +1,26 @@
+<div class="card">
+    <h2>Register</h2>
+    <form >
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input [(ngModel)]="user.Name"  type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input [(ngModel)]="user.Email" type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input [(ngModel)]="user.password"  type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <button (click)="registerUser()" type="submit">Register</button>
+      </div>
+    </form>
+  </div>
+  <div *ngIf = "successmessage">
+    <h2>{{successmessage}}</h2>
+  </div>
+  <div>
+    <router-outlet></router-outlet>
+  </div>

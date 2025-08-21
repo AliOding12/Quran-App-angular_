@@ -1,0 +1,24 @@
+<p>dashboard works!</p>
+<div class="container">
+    <div class="buttons">
+        <div *ngFor="let chapterNumber of chapterNumbers" >
+            <button (click)="setChapterno(chapterNumber)">Set Chapterno to {{ chapterNumber }}</button><br>
+        </div>
+    </div>
+    <div *ngIf="verses" >
+        <h2>Verses in IndoPak Script</h2>
+        
+        <div *ngFor="let verse of verses.verses" class="verse-container">
+            <p>{{ verse.text_indopak }}</p>
+        </div>
+    </div>
+
+    <div *ngIf="audioData">
+  <p>Audio URL: {{ audioData.audioUrl }}</p>
+  <!-- You can use the audio URL to embed an audio player if desired -->
+  <audio controls>
+    <source [src]="audioData.audioUrl" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+</div>

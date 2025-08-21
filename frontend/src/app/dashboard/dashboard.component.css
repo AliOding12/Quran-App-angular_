@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+
+  }
+.verse-container{
+    flex: 1;
+    text-align: center;
+    font-family: 'Amiri'; /* Example font that supports Arabic script */
+    margin-left: 220px; /* Pushes the content to the right to avoid overlapping with the sidebar */
+    padding: 20px;
+    background-color: #f1f1f1; /* Light grey background for contrast */
+    color: #333333; /* Dark grey text color for better readability */
+}
+.verse-container p{
+    font-size: 18px; /* Adjust font size for readability */
+  line-height: 2.2; /* Improve line spacing */
+  color: #111111; /* Darker color for the verse text */
+}
+
+.buttons {
+  width: 200px; /* Adjust width as needed */
+  position: relative;
+  height: max-content;
+  top: 110px;
+  left: 0;
+  bottom: 0;
+  background-color: #4285F4; /* Google blue color */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+  overflow-y: auto; /* Allows scrolling if content exceeds height */
+}
+
+.buttons button{
+    width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff; /* White button background */
+  color: #4285F4; /* Google blue text color */
+  border: 1px solid #4285F4; /* Border color matching button text */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttons button:hover{
+
+    background-color: #007BFF;
+    color: #ffffff;
+}
